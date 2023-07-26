@@ -7,21 +7,32 @@
     <link rel="preconnect" href="https//fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https//fonts.gooleapis.com/css2?family=Train+One&display=swap">
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
   </head>
   <body>
     <div class="header">
-      <div class="header-logo"> Hukurou's Profile</div>
-      <div class="header-list">
-        <ul>
+      <nav class="navbar">
+        <div class="header-logo"> Hukurou's Profile</div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu">
+          <li><a href="#profile">Profile</a></li>
           <li><a href="#skill">Skill</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
     <div class="main">
       <div class="profile">
         <h2>Profile</h2>
         <img src="european-eagle-owl-gc10631ead_1280.jpg" >
+        <img src="hummingbird-gebb907995_1280.jpg">
+        <img src="ruddy-shelduck-gdbbbbb529_1280.jpg">
         <p>フクロウです。</p>
         <p>HTML/CSSを学んでいます。</p>
         <p>趣味は漫画を読むことです</p>
